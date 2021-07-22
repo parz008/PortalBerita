@@ -1,0 +1,123 @@
+.jumbotron{
+	background: transparent;
+}
+
+.display-4{
+	color: white;
+}
+
+.bottom {
+	background-color: black;
+	height: 100%;
+	color: white;
+	padding: 30px;
+}
+.bottom h6{
+	color: #7FFFD4
+}
+.bottom p {
+
+}
+.footer-heading{
+	color : #7FFFD4;
+}
+.navbar{
+	background-color: black;
+	height: 10%;
+}
+.navbar .form-control{
+    background-color: transparent;
+}
+.btn {
+	border-color: #7FFFD4;
+}
+.btn-outline-success{
+	color: #7FFFD4;
+}
+.image {
+	height: 100%;
+	width: 100%;
+	border: 10px solid black;
+}
+.tgl {
+	width: 70%;
+}
+.berita {
+	width: 70%;
+	margin-top: 4%;
+	margin-left: 15%;
+}
+.card{
+	border: 0px;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color:transparent;
+  padding: 10px;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.card{
+  background-color: black;
+  height: 90%;
+  box-shadow: 5px 10px 18px black;
+}
+
+.card-title{
+  font-size: 90%;
+  color: #7FFFD4;
+}
+
+.card-text{
+  font-size: 70%;
+  color: white;
+}
